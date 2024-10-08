@@ -20,7 +20,7 @@ module Primer
     # `item` slot:
     #
     # ```erb
-    # <%= render(Primer::Alpha::SelectPanel.new(fetch_strategy: :local))) do |panel| %>
+    # <%= render(Primer::Alpha::SelectPanel.new(fetch_strategy: :local)) do |panel| %>
     #   <% panel.with_show_button { "Select item" } %>
     #   <% panel.with_item(label: "Item 1") %>
     #   <% panel.with_item(label: "Item 2") %>
